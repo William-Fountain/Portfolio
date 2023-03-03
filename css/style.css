@@ -10,3 +10,10 @@
 p {
 	color: white;
 }
+
+.card-line {
+	background-color: white;
+	width: 2px;
+	height: 100%;
+	margin: auto;
+}
