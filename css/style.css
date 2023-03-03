@@ -1,0 +1,12 @@
+.navigation-link {
+	text-decoration: none;
+	color: white;
+}
+
+.navigation-link:hover {
+	color: green!important;
+}
+
+p {
+	color: white;
+}
