@@ -1,0 +1,52 @@
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/mixins/banner";
+@include bsBanner("");
+
+
+// scss-docs-start import-stack
+// Configuration
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/functions";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/variables";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/variables-dark";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/maps";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/mixins";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/utilities";
+
+// Layout & components
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/root";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/reboot";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/type";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/images";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/containers";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/grid";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/tables";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/forms";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/buttons";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/transitions";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/dropdown";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/button-group";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/nav";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/navbar";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/card";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/accordion";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/breadcrumb";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/pagination";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/badge";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/alert";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/progress";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/list-group";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/close";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/toasts";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/modal";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/tooltip";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/popover";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/carousel";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/spinners";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/offcanvas";
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/placeholders";
+
+// Helpers
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/helpers";
+
+// Utilities
+@import "dependencies/bootstrap-5.3.0-alpha1/scss/utilities/api";
+// scss-docs-end import-stack
