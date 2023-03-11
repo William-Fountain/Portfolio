@@ -13585,6 +13585,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+img {
+  max-width: 100%;
+}
+
 h1, .h1, h2, .h2 {
   background: linear-gradient(90deg, #12C2E9 0%, #C471ED 50%, #F64F59 100%);
   -webkit-background-clip: text;
