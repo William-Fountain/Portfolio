@@ -1,9 +1,9 @@
-.sidebar {
-	height: 100%;
-	width: 10vw;
-	position: fixed;
-	top: 0;
+.navigation {
 	background-color: #0F172A;
+	
+	.navigation-logo {
+		max-width: 7rem;
+	}
 	
 	.navigation-links {
 		a {
@@ -21,6 +21,17 @@
 		
 		&:hover {
 			color: #12C2E9;
+		}
+	}
+	
+	@media (min-width: 992px) {
+		height: 100%;
+		width: 10vw;
+		position: fixed;
+		top: 0;
+		
+		.navigation-logo {
+			max-width: 100%;
 		}
 	}
 }

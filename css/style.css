@@ -2339,9 +2339,9 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: var(--bs-body-color);
-  background-color: var(--bs-form-control-bg);
+  background-color: #2F3C52;
   background-clip: padding-box;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: var(--bs-border-width) solid #1E293B;
   appearance: none;
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2359,7 +2359,7 @@ progress {
 }
 .form-control:focus {
   color: var(--bs-body-color);
-  background-color: var(--bs-form-control-bg);
+  background-color: #2F3C52;
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
@@ -2487,12 +2487,12 @@ textarea.form-control-lg {
   font-weight: 400;
   line-height: 1.5;
   color: var(--bs-body-color);
-  background-color: var(--bs-form-control-bg);
+  background-color: #2F3C52;
   background-image: var(--bs-form-select-bg-img), var(--bs-form-select-bg-icon, none);
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: var(--bs-border-width) solid #1E293B;
   border-radius: 0.375rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
@@ -2562,7 +2562,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input {
-  --bs-form-check-bg: var(--bs-form-control-bg);
+  --bs-form-check-bg: #2F3C52;
   width: 1em;
   height: 1em;
   margin-top: 0.25em;
@@ -2760,7 +2760,7 @@ textarea.form-control-lg {
   width: calc(100% - (calc(calc(0.375em + 0.1875rem) + calc(0.75em + 0.375rem))));
   height: 1.875em;
   content: "";
-  background-color: var(--bs-form-control-bg);
+  background-color: #2F3C52;
   border-radius: 0.375rem;
 }
 .form-floating > .form-control,
@@ -2870,7 +2870,7 @@ textarea.form-control-lg {
   text-align: center;
   white-space: nowrap;
   background-color: var(--bs-tertiary-bg);
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: var(--bs-border-width) solid #1E293B;
   border-radius: 0.375rem;
 }
 
@@ -13595,26 +13595,42 @@ h1, .h1, h2, .h2 {
   -webkit-text-fill-color: transparent;
 }
 
-.sidebar {
-  height: 100%;
-  width: 10vw;
-  position: fixed;
-  top: 0;
+.navigation {
   background-color: #0F172A;
 }
-.sidebar .navigation-links a {
+.navigation .navigation-logo {
+  max-width: 7rem;
+}
+.navigation .navigation-links a {
   width: 100%;
   text-align: center;
   padding: 0.5rem;
   font-size: 1.1rem;
 }
-.sidebar a {
+.navigation a {
   color: var(--bs-light);
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
-.sidebar a:hover {
+.navigation a:hover {
   color: #12C2E9;
+}
+@media (min-width: 992px) {
+  .navigation {
+    height: 100%;
+    width: 10vw;
+    position: fixed;
+    top: 0;
+  }
+  .navigation .navigation-logo {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .content {
+    margin-left: 20vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -864,13 +864,13 @@ $input-padding-y-lg:                    $input-btn-padding-y-lg;
 $input-padding-x-lg:                    $input-btn-padding-x-lg;
 $input-font-size-lg:                    $input-btn-font-size-lg;
 
-$input-bg:                              var(--#{$prefix}form-control-bg);
+$input-bg:                              #2F3C52;
 $input-disabled-color:                  null;
 $input-disabled-bg:                     var(--#{$prefix}form-control-disabled-bg);
 $input-disabled-border-color:           null;
 
 $input-color:                           var(--#{$prefix}body-color);
-$input-border-color:                    var(--#{$prefix}border-color); //$gray-400
+$input-border-color:                    $dark;
 $input-border-width:                    $input-btn-border-width;
 $input-box-shadow:                      $box-shadow-inset;
 
